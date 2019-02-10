@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{ margin: 0; padding: 0; outline: 0;}
+body{ font-family: 'Lato', sans-serif; font-size: 14px; line-height: 18px; color:#000; background: url(bg4.jpg) repeat fixed 0 0 #fff; }
+
+.clear {overflow: hidden;}
+.templete{ width: 960px; margin: 0 auto;}
+
+input[type="email"], input[type="text"] {
+	width: 300px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #D7A23F;
+	border-radius: 5px;
+}
+input[type="submit"] {
+	padding: 2px 10px;
+	font-size: 16px;
+	background: #B88320;
+}
+input[type="submit"]:hover{
+    background: #5D5F60;
+    color: #DC5625;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+	border: 1px solid #EBB653;
+	border-radius: 5px;
+    margin-bottom: 7px;
+}
+.headersection {
+  background: #B88320 none repeat scroll 0 0;
+  color: white;
+}
+
+.logo { width: 500px; float: left;}
+.logo img {
+  padding-left: 10px;
+  width: 245px;
+  float: left;
+  margin-right: 20px;
+}
+.logo h2 {
+  font-size: 31px;
+  margin-bottom: 10px;
+  margin-top: 35px;
+  box-shadow: 1px 2px 1px 1px #333;
+}
+logo p {}
+
+.social { width: 200px; float: right;}
+.social img {
+  margin: 39px 6px;
+  width: 33px;
+}
+
+.navsection {
+  background: #E5B04D none repeat scroll 0 0;
+}
+.navsection ul {margin: 0; padding: 0; list-style: none;}
+.navsection ul li {display: block; float: left;}
+.navsection ul li a {
+  color: #444;
+  display: block;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px 15px;
+  text-decoration: none;
+  background: #B98421;
+}
+.navsection ul li a:hover{background: #DE5145; color: aliceblue;}
+#active{background: #DE5145; color: aliceblue;}
+.slidebersection {
+  margin-bottom: 10px;
+  box-shadow: 0px 7px 5px 1px #333;
+}
+.contentsection {background: white;}
+.maincontent {
+  background: #f1cbbe none repeat scroll 0 0;
+  border: 1px solid;
+  float: left;
+  margin: 0px 10px 10px 0;
+  padding: 7px 10px;
+  width: 648px;
+}
+.about {}
+.about img {
+  background: white none repeat scroll 0 0;
+  border: 1px solid #9b9b9b;
+  float: left;
+  margin-right: 10px;
+  width: 300px;
+  padding: 5px;
+}
+.about p {
+  line-height: 23px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.samepost {}
+.samepost h2,.about h2 {
+  border-bottom: 2px solid;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #b58025;
+}
+.samepost img {
+  float: left;
+  width: 300px;
+  background: white;
+  padding: 10px;
+  border: 2px solid #99989A;
+  margin-right: 10px;
+}
+.samepost p {
+  line-height: 30px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.readmore { float: right;
+   margin-top: 10px;
+}
+.readmore a {
+  background: white none repeat scroll 0 0;
+  border: 2px solid #99989a;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #B58025;
+}
+
+.readmore a:hover{color: currentColor; background: #DE5145;}
+
+.sidebar {
+  background: #f1cbbe none repeat scroll 0 0;
+  float: right;
+  margin: 0px 0;
+  padding: 10px;
+  width: 258px;
+  border: 1px solid;
+}
+.samesidebar {
+  margin-bottom: 8px;
+}
+.samesidebar h2 {
+  background: #e5b04d none repeat scroll 0 0;
+  border-bottom: 3px solid #1d1f21;
+  margin-bottom: 10px;
+  padding: 8px;
+  text-align: center;
+}
+.samesidebar ul {padding: 0px; margin: 0px; list-style: none;}
+.samesidebar ul li {
+  padding: 5px 8px;
+  font-size: 16px;
+  padding-left: 0px;
+  border-bottom: 1px solid #F8C360;
+}
+.samesidebar ul li:last-child{border-bottom: 0px solid #F8C360;}
+.samesidebar ul li a {
+  text-decoration: none;
+  color: #855000;
+}
+.samesidebar ul li a:hover {
+  color: #DE5145;
+}
+.footersection {
+  background: #B88320 none repeat scroll 0 0;
+  height: 90px; text-align: center;
+}
+.footermenu{}
+.footermenu ul {
+  list-style: outside none none;
+  margin-top: 25px;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.footermenu ul li {
+  display: inline-block;
+  color: #EGAF4B;
+  margin: 5px;
+}
+.footermenu ul li a {
+  color: #FFE793;
+}
+.footermenu ul li a:hover{background: #DE5145; color: aliceblue;}
+.footersection p{}
